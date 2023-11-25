@@ -39,7 +39,7 @@ There is also some documentation of the data available [here](https://d396qusza4
 First, we download the data file and unzip it.  
 
 ```{r}
-setwd("C:/Users/Utkarsh/Documents/GitHub/Reproducible-Research-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera/Project 02/")
+setwd("C:\Users\surya\Downloads\Reproducible-Research-Johns-Hopkins-Bloomberg-School-of-Public-Health-Coursera-master\Project 02")
 
 if (!"StormData.csv.bz2" %in% dir("./")) {
     print("Downloading File.....")
